@@ -6,7 +6,10 @@
         "price": 4500,
         "image": "X",
         "code": "002",
-        "stock": 10
+        "stock": 10,
+        "category": "kiosco",
+        "status": "true",
+        "thumbnails": []
     },
     {
         "id": 2,
@@ -15,7 +18,10 @@
         "price": 900,
         "image": "X",
         "code": "003",
-        "stock": 5
+        "stock": 5,
+        "category": "kiosco",
+        "status": "true",
+        "thumbnails": []
     },
     {
         "id": 3,
@@ -24,7 +30,10 @@
         "price": 3000,
         "image": "X",
         "code": "004",
-        "stock": 4
+        "stock": 4,
+        "category": "kiosco",
+        "status": "true",
+        "thumbnails": []
     },
     {
         "id": 4,
@@ -33,7 +42,10 @@
         "price": 2000,
         "image": "X",
         "code": "005",
-        "stock": 3
+        "stock": 3,
+        "category": "kiosco",
+        "status": "true",
+        "thumbnails": []
     },
     {
         "id": 5,
@@ -42,7 +54,10 @@
         "price": 1500,
         "image": "X",
         "code": "006",
-        "stock": 10
+        "stock": 10,
+        "category": "kiosco",
+        "status": "true",
+        "thumbnails": []
     },
     {
         "id": 6,
@@ -51,7 +66,10 @@
         "price": 2000,
         "image": "X",
         "code": "007",
-        "stock": 15
+        "stock": 15,
+        "category": "kiosco",
+        "status": "true",
+        "thumbnails": []
     },
     {
         "id": 7,
@@ -60,7 +78,10 @@
         "price": 5000,
         "image": "X",
         "code": "008",
-        "stock": 16
+        "stock": 16,
+        "category": "kiosco",
+        "status": "true",
+        "thumbnails": []
     },
     {
         "id": 8,
@@ -69,7 +90,10 @@
         "price": 2500,
         "image": "X",
         "code": "009",
-        "stock": 19
+        "stock": 19,
+        "category": "kiosco",
+        "status": "true",
+        "thumbnails": []
     },
     {
         "id": 9,
@@ -78,7 +102,10 @@
         "price": 3050,
         "image": "X",
         "code": "0010",
-        "stock": 12
+        "stock": 12,
+        "category": "kiosco",
+        "status": "true",
+        "thumbnails": []
     },
     {
         "id": 10,
@@ -87,6 +114,9 @@
         "price": 1000,
         "image": "X",
         "code": "0011",
-        "stock": 14
+        "stock": 14,
+        "category": "kiosco",
+        "status": "true",
+        "thumbnails": []
     }
 ]

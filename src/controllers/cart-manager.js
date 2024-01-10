@@ -19,8 +19,7 @@ class CartManager {
                 this.ultId = Math.max(...this.carts.map(cart => cart.id))
             }
         } catch (error) {
-            console.log(error)
-            res.status(500).json({error: "error"})
+            console.log("error al cargar")
 
             await this.guardarCarritos();
         }
@@ -48,18 +47,18 @@ class CartManager {
             const carrito = this.carts.find( c => c.id === cartId)
 
             if(!carrito){
-                throw new Error (`no esiste el carrito con el id ${cartId}`)
+                throw new Error(`no esiste el carrito con el id ${cartId}`)
             }
 
             return carrito;
         } catch (error) {
-            console.log(error)
-            res.status(500).json({error: "error"})
+            console.error("error")
+            throw error;
         }
     }
 
-    async agregarProductosAlCarrito(cartId, productId, quantity = 1){
-        try {
+    async agregarProductoAlCarrito(cartId, productId, quantity = 1){
+        
             const carrito = await this.getCarritoById(cartId);
             const existeProducto = carrito.products.find(p => p.product === productId)
 
@@ -72,11 +71,7 @@ class CartManager {
 
             await this.guardarCarritos();
             return carrito
-
-        } catch (error) {
-            console.log(error)
-            res.status(500).json({error: "error"})
-        }
+        
     }
 }
 
