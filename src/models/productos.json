@@ -1,122 +1,23 @@
 [
-    {
-        "id": 1,
-        "title": "Canarias",
-        "description": "Despalada, amarga y sabrosa",
-        "price": 4500,
-        "image": "X",
-        "code": "002",
-        "stock": 10,
-        "category": "kiosco",
-        "status": "true",
-        "thumbnails": []
-    },
-    {
-        "id": 2,
-        "title": "Piporé",
-        "description": "La mas rica de las argentinas",
-        "price": 900,
-        "image": "X",
-        "code": "003",
-        "stock": 5,
-        "category": "kiosco",
-        "status": "true",
-        "thumbnails": []
-    },
-    {
-        "id": 3,
-        "title": "Rei Verde",
-        "description": "Despalda y fuerte",
-        "price": 3000,
-        "image": "X",
-        "code": "004",
-        "stock": 4,
-        "category": "kiosco",
-        "status": "true",
-        "thumbnails": []
-    },
-    {
-        "id": 4,
-        "title": "Playadito",
-        "description": "Zafa, mao meno",
-        "price": 2000,
-        "image": "X",
-        "code": "005",
-        "stock": 3,
-        "category": "kiosco",
-        "status": "true",
-        "thumbnails": []
-    },
-    {
-        "id": 5,
-        "title": "Rosamonte",
-        "description": "Suave, Cumple, tomable",
-        "price": 1500,
-        "image": "X",
-        "code": "006",
-        "stock": 10,
-        "category": "kiosco",
-        "status": "true",
-        "thumbnails": []
-    },
-    {
-        "id": 6,
-        "title": "Playadito Despalada",
-        "description": "Intomable",
-        "price": 2000,
-        "image": "X",
-        "code": "007",
-        "stock": 15,
-        "category": "kiosco",
-        "status": "true",
-        "thumbnails": []
-    },
-    {
-        "id": 7,
-        "title": "Sara",
-        "description": "Despalda y muy rica",
-        "price": 5000,
-        "image": "X",
-        "code": "008",
-        "stock": 16,
-        "category": "kiosco",
-        "status": "true",
-        "thumbnails": []
-    },
-    {
-        "id": 8,
-        "title": "La merced",
-        "description": "Un poco mas fuerte, no taaan rica, tomable",
-        "price": 2500,
-        "image": "X",
-        "code": "009",
-        "stock": 19,
-        "category": "kiosco",
-        "status": "true",
-        "thumbnails": []
-    },
-    {
-        "id": 9,
-        "title": "Unión",
-        "description": "Tomable",
-        "price": 3050,
-        "image": "X",
-        "code": "0010",
-        "stock": 12,
-        "category": "kiosco",
-        "status": "true",
-        "thumbnails": []
-    },
-    {
-        "id": 10,
-        "title": "La de yuyos",
-        "description": "Rica pero se lava rapido",
-        "price": 1000,
-        "image": "X",
-        "code": "0011",
-        "stock": 14,
-        "category": "kiosco",
-        "status": "true",
-        "thumbnails": []
-    }
+  {
+    "id": 2,
+    "title": "banana",
+    "description": "acida",
+    "price": "33",
+    "img": "Sin Imagen",
+    "code": "3",
+    "stock": "1"
+  },
+  {
+    "title": "torta",
+    "description": "rara",
+    "price": "4",
+    "img": "Sin Imagen",
+    "code": "555",
+    "stock": "21",
+    "category": "comida",
+    "status": true,
+    "thumbnails": [],
+    "id": 3
+  }
 ]
